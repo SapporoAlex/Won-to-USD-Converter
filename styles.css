@@ -12,6 +12,7 @@ html {
 }
 /* Create a tan background */
 body {
+    padding: 0;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -242,6 +243,10 @@ input[type="number"] {
         height: 60px;
     }
 
+    .container{
+        width: 80%;
+    }
+
     .shape.triangle {
         width: 0;
         height: 0;
@@ -253,7 +258,7 @@ input[type="number"] {
         content: "";
         position: absolute;
         top: 10px; /* Position the tan triangle inside */
-        left: -33px; /* Center it horizontally */
+        left: -23px; /* Center it horizontally */
         width: 0;
         height: 0;
         border-left: 23px solid transparent;
