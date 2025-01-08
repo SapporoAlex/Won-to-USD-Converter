@@ -25,6 +25,7 @@ async function convertCurrency() {
 // Function to close the page
 function closePage() {
     window.close();
+    window.location.href = "https://sapporoalex.github.io/Portfolio-Japanese-Version/";
 }
 
 // Event listener for pressing Enter to trigger the convertCurrency function
