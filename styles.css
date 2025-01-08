@@ -99,7 +99,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 100%;
+    width: 90%;
     color: whitesmoke;
     font-family: 'sgfont', sans-serif;
     border: 10px solid whitesmoke;
@@ -253,6 +253,8 @@ input[type="number"] {
         left: -33px; /* Center it horizontally */
         width: 0;
         height: 0;
+        border-left: 23px solid transparent;
+        border-right: 23px solid transparent;
         border-bottom: 45px solid #aa8b62; /* Solid tan triangle */
     }
 
