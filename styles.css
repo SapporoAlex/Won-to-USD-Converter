@@ -198,12 +198,16 @@ input[type="number"] {
         content: "";
         position: absolute;
         top: 10px; /* Position the tan triangle inside */
-        left: -33px; /* Center it horizontally */
+        left: -23px; /* Center it horizontally */
         width: 0;
         height: 0;
         border-left: 33px solid transparent;
         border-right: 33px solid transparent;
         border-bottom: 65px solid #aa8b62; /* Solid tan triangle */
+    }
+    
+    .container{
+        width: 80%;
     }
 
     #buttons {
